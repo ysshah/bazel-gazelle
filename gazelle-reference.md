@@ -26,7 +26,7 @@ Both commands accept a list of directories to process as positional arguments. I
 
 The following general purpose flags are accepted. See [Go: Flags](language/go/reference.md#flags) and [Proto: Flags](language/proto/reference.md#flags) for flags defined by language extensions in this repo.
 
-Many flags have equivalent [directives](#directives) that may be written in `BUIlD` files rather than passed on the command line. When possible, use directives instead of flags. Directives are more consistent and readable for developers working on a project, and they are more precise, since they can be set in specific subdirectories.
+Many flags have equivalent [directives](#directives) that may be written in `BUILD` files rather than passed on the command line. When possible, use directives instead of flags. Directives are more consistent and readable for developers working on a project, and they are more precise, since they can be set in specific subdirectories.
 
 **Flag:** `-build_file_name=file1,file2,...`<br>
 **Default:** `BUILD.bazel,BUILD`<br>
